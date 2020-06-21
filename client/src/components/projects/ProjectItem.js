@@ -5,10 +5,12 @@ import PropTypes from 'prop-types';
 function ProjectItem({ project }) {
   return (
     <div className='card my-3 text-center' style={cardStyle}>
-      <h4 className='mt-2' style={{ color: 'white' }}>
-        {project.name}
+      <h4 className='mt-2 card-title' style={{ color: 'white' }}>
+        {project.title}
       </h4>
-      <p style={{ color: 'white' }}>{project.description}</p>
+      <p className='card-text' style={{ color: 'white' }}>
+        {project.description}
+      </p>
     </div>
   );
 }

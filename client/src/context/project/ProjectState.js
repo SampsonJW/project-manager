@@ -9,17 +9,17 @@ function ProjectState(props) {
     projects: [
       {
         id: 1,
-        name: 'Shopping',
+        title: 'Shopping',
         description: 'My Shopping List',
       },
       {
         id: 2,
-        name: 'Work',
+        title: 'Work',
         description: 'What I need to do at work',
       },
       {
         id: 3,
-        name: 'Coding',
+        title: 'Coding',
         description: 'Coding project',
       },
     ],
