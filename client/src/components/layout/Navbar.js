@@ -34,7 +34,7 @@ Navbar.propTypes = {
 };
 
 Navbar.defaultProps = {
-  title: '  Contact Keeper',
+  title: '  Project Witch',
   icon: 'fas fa-broom',
 };
 export default Navbar;

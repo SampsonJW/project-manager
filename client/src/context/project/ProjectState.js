@@ -23,6 +23,7 @@ function ProjectState(props) {
         description: 'Coding project',
       },
     ],
+    newProject: null,
   };
   const [state, dispatch] = useReducer(ProjectReducer, initialState);
 

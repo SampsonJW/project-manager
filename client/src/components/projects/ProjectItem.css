@@ -1,0 +1,21 @@
+.card {
+  background-color: #343a40;
+  height: 20vh;
+  max-height: 20vh;
+}
+.card:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+.card:last-child {
+  transition: color 0.2s ease;
+  color: grey;
+}
+.card:last-child:hover {
+  transition: color 0.2s ease;
+  color: purple;
+}
+
+.p {
+  color: white;
+}
